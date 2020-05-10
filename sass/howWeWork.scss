@@ -1,0 +1,62 @@
+//HOW WE WORK
+.container-how-we-work {
+    margin: 100px 0;
+
+
+    &__title,
+    &__description {
+        color: $white;
+        padding: 20px;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+    &__title {
+        padding: 50px 150px 20px 50px;
+    }
+
+    &__line {
+        height: 2px;
+        background-color: white;
+        width: 20%;
+        margin: 0 0 50px 50px;
+    }
+
+    &__container-img {
+        margin: 20px 0 0 20px;
+        position: relative;
+        border: 2px solid #6f5522;
+        width: 90%;
+        height: 25%;
+        padding: 20px 0 20px 0;
+    }
+
+    &__img {
+        width: 100%;
+        transform: translate(-30px, -50px)
+    }
+
+
+    &__item--mision,
+    &__item--chronoexpert,
+    &__item--objetivo {
+        padding: 50px 0;
+    }
+
+    &__item--chronoexpert {
+        border-top: 3px solid $white;
+        border-bottom: 3px solid $white;
+    }
+
+    &__item--mision {
+        @include gradientBackground-HowWeWork('../img/howWeWork1.webp')
+    }
+
+    &__item--chronoexpert {
+        @include gradientBackground-HowWeWork('../img/howWeWork2.webp')
+    }
+
+    &__item--objetivo {
+        @include gradientBackground-HowWeWork('../img/howWeWork3.webp')
+    }
+}

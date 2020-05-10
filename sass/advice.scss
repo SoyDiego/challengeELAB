@@ -1,0 +1,33 @@
+//ADVICE
+.container-advice {
+    margin: 100px 0;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text {
+        padding: 50px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    &__btn {
+        font-size: 18px;
+        padding: 15px;
+        width: 80%;
+        margin: 10px;
+        letter-spacing: 2px;
+    }
+
+    &__icon {
+        margin-right: 10px;
+    }
+
+    &__containerBtn {
+        text-align: center;
+    }
+}

@@ -1,0 +1,25 @@
+.container-opinions,
+.container-featured,
+.container-newsletter {
+  margin: 100px 0 50px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-opinions__line,
+.container-featured__line,
+.container-newsletter__line {
+  background-color: #987831;
+  width: 20%;
+  height: 5px;
+}
+.container-opinions__title,
+.container-featured__title,
+.container-newsletter__title {
+  font-size: 25px;
+  padding: 0 50px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+/*# sourceMappingURL=opinions.css.map */

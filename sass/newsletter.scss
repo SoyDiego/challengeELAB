@@ -1,0 +1,52 @@
+@import 'variables';
+
+//NEWSLETTER
+.container-newsletter {
+    background-color: $color-bg-featured;
+    padding: 100px 0;
+
+    &__form {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__containerCheckbox {
+        display: flex;
+    }
+
+    &__input {
+        border: none;
+        border-bottom: 1px solid grey;
+        background-color: transparent;
+        margin: 50px 0 30px 0;
+        width: 90%;
+        height: 50px;
+        padding: 20px 0;
+    }
+
+    &__checkbox {
+
+        margin-right: 20px;
+    }
+
+    &__privacy {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    &__btn {
+        font-size: 30px;
+        width: 100%;
+        margin: 30px 0;
+        padding: 20px 0;
+
+        &:hover {
+            background-color: #a17f35;
+            border: 1px solid $primary-color;
+        }
+    }
+}

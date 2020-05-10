@@ -1,0 +1,13 @@
+//FEATURED
+@import 'variables';
+
+.container-slider {
+    &__line--featured {
+        width: 20%;
+    }
+
+    &__item {
+        color: $primary-color;
+        font-size: 24px;
+    }
+}

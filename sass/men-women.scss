@@ -1,0 +1,45 @@
+//MEN - WOMEN
+.container-men-women {
+    &__item {
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        transition: transform 1s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    &__item--men {
+        @include gradientBackground('../img/men.webp');
+        border-bottom: 2px solid $white;
+
+    }
+
+    &__item--women {
+        @include gradientBackground('../img/women.webp');
+        border-top: 2px solid $white;
+    }
+
+    &__title {
+        font-family: 'Lora', sans-serif;
+        color: white;
+        font-size: 30px;
+    }
+
+    &__line {
+        height: 5px;
+        background-color: $primary-color;
+        width: 20%;
+        margin-bottom: 30px;
+    }
+
+    &__icon {
+        color: white;
+    }
+}

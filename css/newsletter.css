@@ -1,0 +1,42 @@
+.container-newsletter {
+  background-color: #F7F4EF;
+  padding: 100px 0;
+}
+.container-newsletter__form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-newsletter__containerCheckbox {
+  display: flex;
+}
+.container-newsletter__input {
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: transparent;
+  margin: 50px 0 30px 0;
+  width: 90%;
+  height: 50px;
+  padding: 20px 0;
+}
+.container-newsletter__checkbox {
+  margin-right: 20px;
+}
+.container-newsletter__privacy {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.container-newsletter__btn {
+  font-size: 30px;
+  width: 100%;
+  margin: 30px 0;
+  padding: 20px 0;
+}
+.container-newsletter__btn:hover {
+  background-color: #a17f35;
+  border: 1px solid #987831;
+}
+
+/*# sourceMappingURL=newsletter.css.map */

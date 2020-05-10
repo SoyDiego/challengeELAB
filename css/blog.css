@@ -1,0 +1,12 @@
+.container-blog {
+  margin: 100px 0;
+}
+.container-blog__title {
+  font-family: "Lora", sans-serif;
+  margin-top: 15px;
+}
+.container-blog__date {
+  color: #646464;
+}
+
+/*# sourceMappingURL=blog.css.map */

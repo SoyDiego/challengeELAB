@@ -1,0 +1,15 @@
+//BLOG
+@import 'variables';
+
+.container-blog {
+    margin: 100px 0;
+
+    &__title {
+        font-family: 'Lora', sans-serif;
+        margin-top: 15px;
+    }
+
+    &__date {
+        color: $text-footer;
+    }
+}

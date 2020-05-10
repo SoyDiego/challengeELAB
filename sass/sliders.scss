@@ -1,0 +1,84 @@
+//SLIDERS
+//CLASSES SLIDER 1 + SLIDER OPINIONS HERE
+.swiper-container {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+    .swiper-slide {
+        width: 90%;
+        height: 100%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: $primary-color !important;
+    }
+
+    .swiper-pagination-bullet {
+        width: 20px;
+        height: 20px;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: $primary-color !important;
+    }
+}
+
+.container-slider {
+    text-align: center;
+
+    &__img {
+        width: 50%;
+    }
+
+    &__img--featured {
+        width: 20%;
+    }
+
+    &__marca {
+        margin: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    &__name {
+        font-family: 'Lora', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    &__line {
+        background-color: $primary-color;
+        width: 40%;
+        height: 2px;
+    }
+
+    &__code,
+    &__date {
+        color: grey;
+        font-size: 18px;
+    }
+
+    &__price,
+    &__opinion--name {
+        font-size: 30px;
+        margin-bottom: 75px;
+    }
+
+    &__opinion {
+        padding: 20px 70px 0 70px;
+        font-size: 24px;
+    }
+
+    &__date {
+        margin-bottom: 70px;
+    }
+
+    &__opinion--name {
+        margin-bottom: 0px;
+    }
+
+
+}

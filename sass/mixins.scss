@@ -1,0 +1,23 @@
+//mixins
+@mixin gradientBackground($background) {
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(300deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5648459212786677) 65%, rgba(0, 0, 0, 1) 100%),
+        url($background);
+    background: -webkit-linear-gradient(300deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5648459212786677) 65%, rgba(0, 0, 0, 1) 100%),
+        url($background);
+    background: linear-gradient(300deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5648459212786677) 65%, rgba(0, 0, 0, 1) 100%),
+        url($background);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin gradientBackground-HowWeWork($background) {
+    background: rgb(152, 120, 49);
+    background: -moz-linear-gradient(300deg, rgba(152, 120, 49, 1) 0%, rgba(152, 120, 49, 0.7) 65%, rgba(152, 120, 49, 1) 100%), url($background);
+    background: -webkit-linear-gradient(300deg, rgba(152, 120, 49, 1) 0%, rgba(152, 120, 49, 0.7) 65%, rgba(152, 120, 49, 1) 100%), url($background);
+    background: linear-gradient(300deg, rgba(152, 120, 49, 1) 0%, rgba(152, 120, 49, 0.7) 65%, rgba(152, 120, 49, 1) 100%), url($background);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#987831", endColorstr="#987831", GradientType=1);
+    background-position: center;
+    background-size: cover;
+}

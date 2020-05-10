@@ -1,0 +1,29 @@
+.container-advice {
+  margin: 100px 0;
+}
+.container-advice__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-advice__text {
+  padding: 50px;
+  font-size: 28px;
+  text-align: center;
+}
+.container-advice__btn {
+  font-size: 18px;
+  padding: 15px;
+  width: 80%;
+  margin: 10px;
+  letter-spacing: 2px;
+}
+.container-advice__icon {
+  margin-right: 10px;
+}
+.container-advice__containerBtn {
+  text-align: center;
+}
+
+/*# sourceMappingURL=advice.css.map */

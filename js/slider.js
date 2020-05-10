@@ -1,4 +1,6 @@
-var mySwiper = new Swiper(".swiper-container", {
+
+//SLIDER WATCHES
+const mySwiper = new Swiper(".swiper-container", {
 	// Optional parameters
 	loop: true,
 	slidesPerView: 1,
@@ -38,7 +40,8 @@ var mySwiper = new Swiper(".swiper-container", {
 	// },
 });
 
-var mySwiper2 = new Swiper(".swiper-2", {
+//SLIDER OPINIONS
+const mySwiper2 = new Swiper(".swiper-2", {
 	// Optional parameters
 	loop: true,
 	slidesPerView: 1,
@@ -78,7 +81,9 @@ var mySwiper2 = new Swiper(".swiper-2", {
 	// },
 });
 
-var mySwiper3 = new Swiper(".swiper-3", {
+
+//SLIDER FEATURED
+const mySwiper3 = new Swiper(".swiper-3", {
 	// Optional parameters
 	loop: true,
 	slidesPerView: 1,

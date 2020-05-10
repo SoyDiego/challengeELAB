@@ -1,0 +1,33 @@
+.container-watches {
+  margin: 100px 0;
+  justify-content: center;
+  align-items: center;
+}
+.container-watches__watch {
+  margin: 40px 0;
+  text-align: center;
+  transition: all 0.5s ease;
+  padding: 20px;
+}
+.container-watches__watch:hover {
+  border: 1px solid #987831;
+  cursor: pointer;
+}
+.container-watches__title {
+  font-weight: bold;
+  color: #987831;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.container-watches__line {
+  width: 30%;
+  height: 1px;
+  background-color: #c8c8c8;
+}
+.container-watches__finalTitle {
+  color: #987831;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/*# sourceMappingURL=watches.css.map */

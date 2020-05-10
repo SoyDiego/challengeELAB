@@ -1,0 +1,82 @@
+
+@import 'variables';
+//FOOTER
+.container-footer {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text-footer;
+
+    &__title {
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+
+    &__line {
+        width: 40%;
+        margin: 0;
+        height: 3px;
+        background-color: $text-footer;
+        margin-bottom: 40px;
+    }
+
+    &__sitemaps {
+        display: none;
+    }
+
+    &__item {
+        margin: 50px 0;
+        font-size: 20px;
+    }
+
+    &__rrss {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__line--rrss {
+        width: 28%;
+        margin: 0;
+        height: 3px;
+        background-color: grey;
+        margin-bottom: 40px;
+    }
+
+    &__container-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    &__container-countries {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 0;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+    &__countries {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__copyright {
+        text-align: center;
+        font-size: 20px;
+        background-color: $color-bg-footer;
+        padding: 20px 0;
+        border: none;
+        border-top-style: 3px solid white !important;
+    }
+}

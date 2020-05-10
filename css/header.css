@@ -1,0 +1,79 @@
+.container-title {
+  padding: 0 30px;
+  text-align: center;
+}
+.container-title__title {
+  font-size: 40px;
+  padding: 0 100px;
+  font-family: "Lora", serif;
+}
+.container-title__title--howWeWork {
+  padding: 0;
+}
+.container-title__line {
+  height: 5px;
+  background-color: #987831;
+  width: 20%;
+  margin: 50px auto;
+}
+
+.container-phone {
+  text-align: center;
+}
+.container-phone__title {
+  font-weight: bold;
+  margin: 5px;
+}
+.container-phone__title--icon {
+  padding-right: 2px;
+}
+
+.container-nav {
+  text-align: center;
+}
+
+.container-header {
+  position: relative;
+  background-image: url(../img/wall-header.webp);
+  background-position: top center;
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+}
+.container-header__title {
+  font-family: "Lora", serif;
+  padding: 0 50px;
+}
+.container-header__line {
+  width: 20%;
+  height: 5px;
+  background-color: #987831;
+}
+.container-header__description {
+  font-size: 18px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.container-header__btn {
+  position: absolute;
+  bottom: -50px;
+  width: 80%;
+  padding: 20px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  -webkit-box-shadow: 0px 15px 140px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 15px 140px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 15px 140px 0px rgba(0, 0, 0, 0.75);
+  z-index: 9;
+}
+.container-header__btn:hover {
+  background-color: #a17f35;
+  border: 1px solid #987831;
+}
+
+/*# sourceMappingURL=header.css.map */
