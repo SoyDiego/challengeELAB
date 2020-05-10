@@ -1,0 +1,207 @@
+@media (min-width: 480px) {
+  .container-title__title {
+    padding: 0px;
+  }
+
+  .container-footer__info, .container-footer__content, .container-footer__sitemaps--mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-footer__item {
+    margin: 20px 0;
+  }
+  .container-footer__title {
+    margin: 20px 0;
+  }
+  .container-footer__line--hidden {
+    visibility: hidden;
+  }
+}
+@media (min-width: 576px) {
+  .container-footer__line--hidden {
+    visibility: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .container-advice {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-newsletter__form {
+    width: 100%;
+  }
+
+  .container-footer__countries {
+    justify-content: center;
+  }
+  .container-footer__countries a {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .container-men-women__item-men {
+    border-right: 2px solid white;
+  }
+  .container-men-women__item--women {
+    border: none;
+    border-left: 2px solid white;
+  }
+
+  .container-slider__opinion {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-phone {
+    text-align: right;
+  }
+  .container-phone__title {
+    padding-right: 20px;
+  }
+  .container-phone__containerGral {
+    justify-content: flex-end;
+  }
+
+  .container-nav {
+    text-align: left;
+  }
+
+  .container-header {
+    justify-content: center;
+    align-items: flex-start;
+    background-position: center right;
+  }
+  .container-header__content {
+    margin: 0 50px;
+    width: 40%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-header__line {
+    align-self: flex-start !important;
+  }
+  .container-header__description {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .container-header__btn {
+    position: relative;
+    padding: 20px;
+    width: 80%;
+  }
+
+  .container-sellYourWatch__watch {
+    display: flex;
+    flex-direction: row;
+  }
+  .container-sellYourWatch__container-img {
+    order: 2;
+  }
+  .container-sellYourWatch__container-content {
+    order: 1;
+  }
+  .container-sellYourWatch__btn {
+    padding: 20px;
+    margin-top: 40px;
+  }
+  .container-sellYourWatch__description {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .container-men-women__item-men {
+    border-right: 2px solid white;
+  }
+  .container-men-women__item--women {
+    border: none;
+    border-left: 2px solid white;
+  }
+
+  .container-slider__opinion {
+    padding: 0 20px;
+  }
+
+  .container-how-we-work {
+    overflow-x: hidden;
+  }
+  .container-how-we-work__item--mision {
+    display: flex;
+  }
+  .container-how-we-work__item--objetivo {
+    display: flex;
+  }
+  .container-how-we-work__img {
+    transform: translate(-70px, -120px);
+  }
+  .container-how-we-work__container-img {
+    height: 75%;
+  }
+  .container-how-we-work__container-img--orden {
+    display: flex;
+    order: 2;
+  }
+  .container-how-we-work__item--chronoexpert {
+    margin: 70px 50px 70px 0px;
+    display: flex;
+    order: 2;
+  }
+  .container-how-we-work__containerGral-content {
+    order: 2;
+  }
+
+  .container-advice {
+    justify-content: center;
+    align-items: center;
+  }
+  .container-advice__containerBtn {
+    width: 100%;
+    display: flex;
+  }
+
+  .container-blog {
+    padding: 0 100px;
+  }
+
+  .container-newsletter__containerForm {
+    display: flex;
+  }
+  .container-newsletter__form {
+    width: 100%;
+  }
+  .container-newsletter__btn {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .container-footer__line--hidden {
+    visibility: hidden;
+  }
+  .container-footer__content {
+    display: block;
+  }
+  .container-footer__sitemaps {
+    display: flex;
+    flex-direction: row;
+  }
+  .container-footer__sitemaps--mobile {
+    display: none;
+  }
+  .container-footer__container-logo {
+    display: flex;
+    flex-direction: row;
+  }
+  .container-footer__countries {
+    justify-content: center;
+  }
+  .container-footer__countries a {
+    margin: 0 10px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

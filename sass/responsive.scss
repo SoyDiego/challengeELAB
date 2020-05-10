@@ -1,0 +1,300 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 480px) {
+    .container-title {
+        &__title {
+            padding: 0px;
+        }
+    }
+
+    .container-footer {
+
+        &__info,
+        &__content,
+        &__sitemaps--mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__item {
+            margin: 20px 0;
+        }
+
+        &__title {
+            margin: 20px 0;
+        }
+
+        &__line--hidden {
+            visibility: hidden;
+        }
+    }
+
+}
+
+@media (min-width: 576px) {
+    .container-footer {
+
+        &__line--hidden {
+            visibility: hidden;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+    //ADVICE
+    .container-advice {
+        justify-content: center;
+        align-items: center;
+    }
+
+    //NEWSLETTER
+    .container-newsletter {
+        &__form {
+            width: 100%;
+        }
+    }
+
+    //FOOTER
+    .container-footer {
+        &__countries {
+            justify-content: center;
+
+            a {
+                margin: 0 10px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+    //MEN-WOMENS
+    .container-men-women {
+        &__item-men {
+            border-right: 2px solid white;
+        }
+
+        &__item--women {
+            border: none;
+            border-left: 2px solid white;
+        }
+    }
+
+    //OPINIONS
+    .container-slider {
+        &__opinion {
+            padding: 0 20px;
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+    //PHONE HEADER
+    .container-phone {
+        text-align: right;
+
+        &__title {
+            padding-right: 20px;
+        }
+
+        &__containerGral {
+            justify-content: flex-end;
+        }
+    }
+
+    //NAV
+    .container-nav {
+        text-align: left;
+    }
+
+    //HEADER
+    .container-header {
+        justify-content: center;
+        align-items: flex-start;
+        background-position: center right;
+
+        &__content {
+            margin: 0 50px;
+            width: 40%;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__line {
+            align-self: flex-start !important;
+        }
+
+        &__description {
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        &__btn {
+            position: relative;
+            padding: 20px;
+            width: 80%;
+        }
+    }
+
+    //SELL YOUR WATCH
+    .container-sellYourWatch {
+        &__watch {
+            display: flex;
+            flex-direction: row;
+        }
+
+        &__container-img {
+            order: 2;
+        }
+
+        &__container-content {
+            order: 1;
+        }
+
+        &__btn {
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        &__description {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+    }
+
+    //MEN-WOMENS
+    .container-men-women {
+        &__item-men {
+            border-right: 2px solid white;
+        }
+
+        &__item--women {
+            border: none;
+            border-left: 2px solid white;
+        }
+    }
+
+    //OPINIONS
+    .container-slider {
+        &__opinion {
+            padding: 0 20px;
+        }
+    }
+
+    //HOW WE WORK
+    .container-how-we-work {
+        overflow-x: hidden;
+
+        //MISION
+        &__item--mision {
+            display: flex;
+        }
+
+        &__item--objetivo {
+            display: flex;
+        }
+
+        &__img {
+            transform: translate(-70px, -120px);
+        }
+
+        &__container-img {
+            height: 75%;
+        }
+
+        &__container-img--orden {
+            display: flex;
+            order: 2;
+        }
+
+        //CHRONOEXPERT
+        &__item--chronoexpert {
+            margin: 70px 50px 70px 0px;
+            display: flex;
+            order: 2;
+        }
+
+        &__containerGral-content {
+            order: 2;
+        }
+
+
+        //OBJETIVE
+    }
+
+    //ADVICE
+    .container-advice {
+        justify-content: center;
+        align-items: center;
+
+        &__containerBtn {
+            width: 100%;
+            display: flex;
+        }
+    }
+
+    //BLOG
+    .container-blog {
+        padding: 0 100px;
+    }
+
+    //NEWSLETTER
+    .container-newsletter {
+        &__containerForm {
+            display: flex;
+        }
+
+        &__form {
+            width: 100%;
+        }
+
+        &__btn {
+            font-size: 20px;
+            padding: 10px;
+        }
+    }
+
+    //footer
+    .container-footer {
+        &__line--hidden {
+            visibility: hidden;
+        }
+
+        &__content{
+            display: block;
+        }
+
+        &__sitemaps {
+            display: flex;
+            flex-direction: row;
+        }
+
+        &__sitemaps--mobile {
+            display: none;
+        }
+
+        &__container-logo {
+            display: flex;
+            flex-direction: row;
+        }
+
+        &__countries {
+            justify-content: center;
+
+            a {
+                margin: 0 10px;
+            }
+        }
+    }
+
+}
