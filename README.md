@@ -1,7 +1,7 @@
 ﻿
 # Prueba técnica ELAB Consulting
 
-El resultado final puede visualizarse desde aquí: https://github.com/SoyDiego/challengeELAB
+El resultado final puede visualizarse desde aquí: https://soydiego.github.io/challengeELAB/
 
 ## Objetivos  
 Dados dos diseños en **.PNG** ([home Desktop](https://github.com/SoyDiego/challengeELAB/blob/master/files/home%20Desktop.png) y [home Mobile](https://github.com/SoyDiego/challengeELAB/blob/master/files/home%20Mobile.png)):
