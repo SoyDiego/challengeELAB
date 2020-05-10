@@ -115,10 +115,10 @@ body {
     &__btn {
         position: absolute;
         bottom: -50px;
-        width: 90%;
-        padding: 30px;
+        width: 80%;
+        padding: 20px;
         letter-spacing: 3px;
-        font-size: 25px;
+        font-size: 20px;
         -webkit-box-shadow: 0px 15px 140px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 15px 140px 0px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 15px 140px 0px rgba(0, 0, 0, 0.75);
@@ -193,11 +193,11 @@ body {
     text-align: center;
 
     &__img {
-        width: 100%;
+        width: 50%;
     }
 
     &__img--featured {
-        width: 10%;
+        width: 20%;
     }
 
     &__marca {
@@ -322,7 +322,7 @@ body {
     &__title {
         font-family: 'Lora', sans-serif;
         color: white;
-        font-size: 50px;
+        font-size: 30px;
     }
 
     &__line {
@@ -369,9 +369,9 @@ body {
     &__title,
     &__description {
         color: $white;
-        padding: 50px;
+        padding: 20px;
         letter-spacing: 2px;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     &__title {
@@ -390,7 +390,7 @@ body {
         position: relative;
         border: 2px solid #6f5522;
         width: 90%;
-        height: 39%;
+        height: 25%;
         padding: 20px 0 20px 0;
     }
 
@@ -442,7 +442,7 @@ body {
     }
 
     &__btn {
-        font-size: 24px;
+        font-size: 18px;
         padding: 15px;
         width: 80%;
         margin: 10px;

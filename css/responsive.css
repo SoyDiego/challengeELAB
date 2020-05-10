@@ -1,6 +1,33 @@
-@media (min-width: 480px) {
+@media (max-width: 480px) {
   .container-title__title {
     padding: 0px;
+  }
+
+  .container-sellYourWatch__title {
+    font-size: 30px;
+  }
+  .container-sellYourWatch__description {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .container-sellYourWatch__btn {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .container-how-we-work__content {
+    margin-top: 50px;
+  }
+
+  .container-men-women__title {
+    text-align: center;
+  }
+  .container-men-women .container-how-we-work__container-img {
+    height: 25% !important;
+  }
+  .container-men-women .container-newsletter__btn {
+    padding: 10px;
+    font-size: 18px;
   }
 
   .container-footer__info, .container-footer__content, .container-footer__sitemaps--mobile {
@@ -8,6 +35,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .container-footer__container-countries {
+    font-size: 14px;
   }
   .container-footer__item {
     margin: 20px 0;
@@ -20,11 +50,23 @@
   }
 }
 @media (min-width: 576px) {
+  .container-how-we-work__content {
+    margin-top: 100px;
+  }
+
   .container-footer__line--hidden {
     visibility: hidden;
   }
 }
 @media (min-width: 768px) {
+  .container-men-women__title {
+    font-size: 50px;
+  }
+
+  .container-how-we-work__container-img, .container-how-we-work__img {
+    display: none;
+  }
+
   .container-advice {
     justify-content: center;
     align-items: center;
@@ -41,14 +83,27 @@
     margin: 0 10px;
     font-size: 16px;
   }
+  .container-footer__sitemaps--mobile {
+    margin-left: 50px;
+  }
 }
 @media (min-width: 992px) {
+  .container-slider__img {
+    width: 75%;
+  }
+  .container-slider__img--featured {
+    width: 30%;
+  }
+
   .container-men-women__item-men {
     border-right: 2px solid white;
   }
   .container-men-women__item--women {
     border: none;
     border-left: 2px solid white;
+  }
+  .container-men-women__title {
+    font-size: 40px;
   }
 
   .container-slider__opinion {
@@ -96,6 +151,13 @@
     width: 80%;
   }
 
+  .container-slider__img {
+    width: 75%;
+  }
+  .container-slider__img--featured {
+    width: 20%;
+  }
+
   .container-sellYourWatch__watch {
     display: flex;
     flex-direction: row;
@@ -122,6 +184,9 @@
     border: none;
     border-left: 2px solid white;
   }
+  .container-men-women__title {
+    font-size: 50px;
+  }
 
   .container-slider__opinion {
     padding: 0 20px;
@@ -135,16 +200,20 @@
   }
   .container-how-we-work__item--objetivo {
     display: flex;
+    margin-top: 50px;
   }
   .container-how-we-work__img {
     transform: translate(-70px, -120px);
+    display: flex;
   }
   .container-how-we-work__container-img {
     height: 75%;
+    display: flex;
   }
   .container-how-we-work__container-img--orden {
     display: flex;
     order: 2;
+    height: 75%;
   }
   .container-how-we-work__item--chronoexpert {
     margin: 70px 50px 70px 0px;
@@ -162,6 +231,9 @@
   .container-advice__containerBtn {
     width: 100%;
     display: flex;
+  }
+  .container-advice__btn {
+    font-size: 24px;
   }
 
   .container-blog {
