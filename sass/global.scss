@@ -7,13 +7,18 @@ $grey-lines: #c8c8c8;
 $color-bg-featured: #F7F4EF;
 $color-bg-footer: #E6E6E6;
 
+body,
+html {
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
 }
+
 
 //mixins
 @mixin gradientBackground($background) {
