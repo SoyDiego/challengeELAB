@@ -13,7 +13,7 @@ Dados dos diseños en **.PNG** ([home Desktop](https://github.com/SoyDiego/chall
 ## Tecnologías utilizadas
 
  - HTML5
- - CSS3 / SASS
+ - CSS3 / SASS ([Utilizando Metodología BEM](https://en.bem.info/methodology/))
  - JAVASCRIPT
  - BOOTSTRAP 4
 
